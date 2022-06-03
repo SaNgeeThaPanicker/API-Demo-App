@@ -1,0 +1,966 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 5,
+        "name": "Verify Hiding of buttons",
+        "description": "",
+        "id": "operation-on-animation-button;verify-hiding-of-buttons",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 311792800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Already on the API demo app",
+            "match": {
+              "location": "animation_Step.already_on_the_API_demo_app()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 12801387500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Click on animation button",
+            "match": {
+              "location": "animation_Step.click_on_animation_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 11322706100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Click on hide show animation",
+            "match": {
+              "location": "animation_Step.click_on_hide_show_animation()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10121147900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Click on custom Animation",
+            "match": {
+              "location": "animation_Step.click_on_custom_Animation()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10138635400,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Click on hide rangeButton",
+            "match": {
+              "location": "animation_Step.click_on_hide_rangeButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10115823300,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Click on Show Button",
+            "match": {
+              "location": "animation_Step.click_on_Show_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10117049800,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Click on custom Animation",
+            "match": {
+              "location": "animation_Step.click_on_custom_Animation()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 58800,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Validate if the button working",
+            "match": {
+              "location": "animation_Step.validate_if_the_button_working()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@animation"
+          }
+        ]
+      },
+      {
+        "line": 17,
+        "name": "Verify Showing of buttons",
+        "description": "",
+        "id": "operation-on-animation-button;verify-showing-of-buttons",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 94000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "already on animation/Hide show",
+            "match": {
+              "location": "animation_Step.already_on_animation_Hide_show()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 10114804300,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "Click on hide",
+            "match": {
+              "location": "animation_Step.click_on_hide()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10111785400,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "Click on hide rangeButton",
+            "match": {
+              "location": "animation_Step.click_on_hide_rangeButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10116622100,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "Click on Show Button",
+            "match": {
+              "location": "animation_Step.click_on_Show_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 90635700,
+              "error_message": "org.openqa.selenium.UnsupportedCommandException: The requested resource could not be found, or a request was received using an HTTP method that is not supported by the mapped resource\nBuild info: version: \u00273.141.5\u0027, revision: \u0027d54ebd709a\u0027, time: \u00272018-11-06T11:42:16\u0027\nSystem info: host: \u0027IN-PG02H8Q2\u0027, ip: \u0027192.168.0.103\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002711.0.1\u0027\nDriver info: io.appium.java_client.android.AndroidDriver\nCapabilities {app: C:/Users/sangeethapanicker/..., appActivity: io.appium.android.apis.ApiD..., appPackage: io.appium.android.apis, databaseEnabled: false, desired: {app: C:/Users/sangeethapanicker/..., appActivity: io.appium.android.apis.ApiD..., appPackage: io.appium.android.apis, deviceName: Android, platformName: android, platformVersion: 8.1}, deviceApiLevel: 27, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenDensity: 420, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.625, platform: LINUX, platformName: Android, platformVersion: 8.1.0, statBarHeight: 63, takesScreenshot: true, viewportRect: {height: 1731, left: 0, top: 63, width: 1080}, warnings: {}, webStorageEnabled: false}\nSession ID: b00c80b6-418f-4498-84d3-761b1fee0aa5\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:231)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:46)\r\n\tat io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)\r\n\tat io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:442)\r\n\tat stepDefination.animation_Step.valiadte_if_button_hide_working(animation_Step.java:90)\r\n\tat ✽.Then Valiadte if button hide working(animation.feature:23)\r\n",
+              "status": "failed"
+            },
+            "line": 23,
+            "name": "Valiadte if button hide working",
+            "match": {
+              "location": "animation_Step.valiadte_if_button_hide_working()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 16,
+            "name": "@animation"
+          }
+        ]
+      }
+    ],
+    "name": "Operation on Animation button",
+    "description": "I want to use this file to check the Animation button internal features are working properly",
+    "id": "operation-on-animation-button",
+    "keyword": "Feature",
+    "uri": "animation.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 6,
+        "name": "Checking on display options",
+        "description": "",
+        "id": "operation-on-app-button;checking-on-display-options",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 91000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Already on API demo app",
+            "match": {
+              "location": "app_Step.already_on_API_demo_app()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 40075154000,
+              "error_message": "org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.5\u0027, revision: \u0027d54ebd709a\u0027, time: \u00272018-11-06T11:42:16\u0027\nSystem info: host: \u0027IN-PG02H8Q2\u0027, ip: \u0027192.168.0.103\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002711.0.1\u0027\nDriver info: io.appium.java_client.android.AndroidDriver\nCapabilities {app: C:/Users/sangeethapanicker/..., appActivity: io.appium.android.apis.ApiD..., appPackage: io.appium.android.apis, databaseEnabled: false, desired: {app: C:/Users/sangeethapanicker/..., appActivity: io.appium.android.apis.ApiD..., appPackage: io.appium.android.apis, deviceName: Android, platformName: android, platformVersion: 8.1}, deviceApiLevel: 27, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenDensity: 420, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.625, platform: LINUX, platformName: Android, platformVersion: 8.1.0, statBarHeight: 63, takesScreenshot: true, viewportRect: {height: 1731, left: 0, top: 63, width: 1080}, warnings: {}, webStorageEnabled: false}\nSession ID: b00c80b6-418f-4498-84d3-761b1fee0aa5\n*** Element info: {Using\u003dxpath, value\u003d//android.widget.TextView[@content-desc\u003d\"App\"]}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:231)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)\r\n\tat io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)\r\n\tat io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:62)\r\n\tat io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)\r\n\tat io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:152)\r\n\tat io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)\r\n\tat io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58)\r\n\tat io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)\r\n\tat io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)\r\n\tat stepDefination.app_Step.click_on_app(app_Step.java:26)\r\n\tat ✽.When click on app(app.feature:8)\r\n",
+              "status": "failed"
+            },
+            "line": 8,
+            "name": "click on app",
+            "match": {
+              "location": "app_Step.click_on_app()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "click on action bar",
+            "match": {
+              "location": "app_Step.click_on_action_bar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "click on Display Options",
+            "match": {
+              "location": "app_Step.click_on_Display_Options()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "Validate on all the buttons within",
+            "match": {
+              "location": "app_Step.validate_on_all_the_buttons_within()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Operation on App Button",
+    "description": "I want to use this template for my App button validations",
+    "id": "operation-on-app-button",
+    "keyword": "Feature",
+    "uri": "app.feature"
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 6,
+        "name": "Checking on Alarm",
+        "description": "",
+        "id": "operation-on-app-button-and-alarm;checking-on-alarm",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 101700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "In API demo app",
+            "match": {
+              "location": "app_alarm_Step.in_API_demo_app()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 10013588600,
+              "error_message": "java.lang.NullPointerException\r\n\tat stepDefination.app_alarm_Step.click_on_App_button(app_alarm_Step.java:23)\r\n\tat ✽.When click on App button(app_alarm.feature:8)\r\n",
+              "status": "failed"
+            },
+            "line": 8,
+            "name": "click on App button",
+            "match": {
+              "location": "app_alarm_Step.click_on_App_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "click on Alarm",
+            "match": {
+              "location": "app_alarm_Step.click_on_Alarm()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "click on Alarm Controller",
+            "match": {
+              "location": "app_alarm_Step.click_on_Alarm_Controller()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "click on One shot alarm",
+            "match": {
+              "location": "app_alarm_Step.click_on_One_shot_alarm()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "click on Repeating alarm",
+            "match": {
+              "location": "app_alarm_Step.click_on_Repeating_alarm()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "click on Stop alarm",
+            "match": {
+              "location": "app_alarm_Step.click_on_Stop_alarm()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "Alarm will set",
+            "match": {
+              "location": "app_alarm_Step.alarm_will_set()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Operation on App Button and alarm",
+    "description": "I want to use this template for my App Button and alarm validations",
+    "id": "operation-on-app-button-and-alarm",
+    "keyword": "Feature",
+    "uri": "app_alarm.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 6,
+        "name": "check content Assest option",
+        "description": "",
+        "id": "check-content;check-content-assest-option",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 98500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Already on API Demo appp",
+            "match": {
+              "location": "content_Step.already_on_API_Demo_appp()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 756400,
+              "error_message": "java.lang.NullPointerException\r\n\tat pages.content_page.ClickContent(content_page.java:34)\r\n\tat stepDefination.content_Step.click_on_content(content_Step.java:18)\r\n\tat ✽.When Click on content(content.feature:8)\r\n",
+              "status": "failed"
+            },
+            "line": 8,
+            "name": "Click on content",
+            "match": {
+              "location": "content_Step.click_on_content()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "Click on Assest",
+            "match": {
+              "location": "content_Step.click_on_Assest()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "Click on Read Assest",
+            "match": {
+              "location": "content_Step.click_on_Read_Assest()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "Click on Back",
+            "match": {
+              "location": "content_Step.click_on_Back()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 15,
+        "name": "check Clipboard option",
+        "description": "",
+        "id": "check-content;check-clipboard-option",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 59100,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Already on API Demo appp",
+            "match": {
+              "location": "content_Step.already_on_API_Demo_appp()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 192900,
+              "error_message": "java.lang.NullPointerException\r\n\tat pages.content_page.ClickContent(content_page.java:34)\r\n\tat stepDefination.content_Step.click_on_content(content_Step.java:18)\r\n\tat ✽.When Click on content(content.feature:17)\r\n",
+              "status": "failed"
+            },
+            "line": 17,
+            "name": "Click on content",
+            "match": {
+              "location": "content_Step.click_on_content()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 18,
+            "name": "Click on Clipboard",
+            "match": {
+              "location": "content_Step.click_on_Clipboard()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 19,
+            "name": "Click on Data type",
+            "match": {
+              "location": "content_Step.click_on_Data_type()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 20,
+            "name": "Click on Copy Text options",
+            "match": {
+              "location": "content_Step.click_on_Copy_Text_options()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 21,
+            "name": "Click on Back",
+            "match": {
+              "location": "content_Step.click_on_Back()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Check content",
+    "description": "I want to use this template for my Content features",
+    "id": "check-content",
+    "keyword": "Feature",
+    "uri": "content.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 5,
+        "name": "check content Graphics option",
+        "description": "",
+        "id": "graphics-feature;check-content-graphics-option",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 95800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Already in Api demo app",
+            "match": {
+              "location": "graphics_Step.already_in_Api_demo_app()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 654600,
+              "error_message": "java.lang.NullPointerException\r\n\tat pages.graphics_page.clickGraphics(graphics_page.java:24)\r\n\tat stepDefination.graphics_Step.click_on_graphics(graphics_Step.java:20)\r\n\tat ✽.When Click on graphics(graphics.feature:7)\r\n",
+              "status": "failed"
+            },
+            "line": 7,
+            "name": "Click on graphics",
+            "match": {
+              "location": "graphics_Step.click_on_graphics()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "Click on AlphaBitmap",
+            "match": {
+              "location": "graphics_Step.click_on_AlphaBitmap()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "Click on AnimateDrawaables",
+            "match": {
+              "location": "graphics_Step.click_on_AnimateDrawaables()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "Click on Arcs",
+            "match": {
+              "location": "graphics_Step.click_on_Arcs()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "Click on Back Button",
+            "match": {
+              "location": "graphics_Step.click_on_Back_Button()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@graphics"
+          }
+        ]
+      }
+    ],
+    "name": "Graphics feature",
+    "description": "I want to use this template for my Graphics features",
+    "id": "graphics-feature",
+    "keyword": "Feature",
+    "uri": "graphics.feature"
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 6,
+        "name": "check content Media option",
+        "description": "",
+        "id": "operation-on-media-future;check-content-media-option",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 139500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "already in Api demo app",
+            "match": {
+              "location": "media_Step.already_in_Api_demo_app()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 919100,
+              "error_message": "java.lang.NullPointerException\r\n\tat pages.media_page.clickMedia(media_page.java:26)\r\n\tat stepDefination.media_Step.click_on_Media(media_Step.java:19)\r\n\tat ✽.When Click on Media(media.feature:8)\r\n",
+              "status": "failed"
+            },
+            "line": 8,
+            "name": "Click on Media",
+            "match": {
+              "location": "media_Step.click_on_Media()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "Click on MediaPlayer",
+            "match": {
+              "location": "media_Step.click_on_MediaPlayer()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "Click on play video",
+            "match": {
+              "location": "media_Step.click_on_play_video()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "Click on play streaming video",
+            "match": {
+              "location": "media_Step.click_on_play_streaming_video()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "Click on play audio from local file",
+            "match": {
+              "location": "media_Step.click_on_play_audio_from_local_file()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "Click on play audio from resources",
+            "match": {
+              "location": "media_Step.click_on_play_audio_from_resources()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "valiadte buttons",
+            "match": {
+              "location": "media_Step.valiadte_buttons()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 5,
+            "name": "@media"
+          }
+        ]
+      }
+    ],
+    "name": "Operation on Media future",
+    "description": "I want to use this template for Media feature",
+    "id": "operation-on-media-future",
+    "keyword": "Feature",
+    "uri": "media.feature"
+  },
+  {
+    "line": 3,
+    "elements": [
+      {
+        "line": 7,
+        "name": "Title of your scenario",
+        "description": "",
+        "id": "title-of-your-feature;title-of-your-scenario",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 8,
+            "name": "I want to write a step with precondition",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 9,
+            "name": "some other precondition",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 10,
+            "name": "I complete action",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 11,
+            "name": "some other action",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 12,
+            "name": "yet another action",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 13,
+            "name": "I validate the outcomes",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 14,
+            "name": "check more outcomes",
+            "match": {},
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 6,
+            "name": "@tag1"
+          }
+        ]
+      },
+      {
+        "line": 24,
+        "name": "Title of your scenario outline",
+        "description": "",
+        "id": "title-of-your-feature;title-of-your-scenario-outline;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 18,
+            "name": "I want to write a step with name1",
+            "match": {},
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 19,
+            "name": "I check for the 5 in step",
+            "match": {},
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 20,
+            "name": "I verify the success in step",
+            "match": {},
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 2,
+            "name": "@tag"
+          },
+          {
+            "line": 16,
+            "name": "@tag2"
+          }
+        ]
+      },
+      {
+        "line": 25,
+        "name": "Title of your scenario outline",
+        "description": "",
+        "id": "title-of-your-feature;title-of-your-scenario-outline;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 18,
+            "name": "I want to write a step with name2",
+            "match": {},
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 19,
+            "name": "I check for the 7 in step",
+            "match": {},
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 20,
+            "name": "I verify the Fail in step",
+            "match": {},
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 2,
+            "name": "@tag"
+          },
+          {
+            "line": 16,
+            "name": "@tag2"
+          }
+        ]
+      }
+    ],
+    "name": "Title of your feature",
+    "description": "I want to use this template for my feature file",
+    "id": "title-of-your-feature",
+    "keyword": "Feature",
+    "uri": "text.feature",
+    "tags": [
+      {
+        "line": 2,
+        "name": "@tag"
+      }
+    ]
+  }
+]

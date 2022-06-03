@@ -1,0 +1,79 @@
+2022-06-03 17:44:58,517  INFO [main] TestRunners:133 - 
+ *********************** 
+ Operation feature has ended 
+ *******************************
+ 
+2022-06-03 17:44:58,530  INFO [main] TestRunners:133 - 
+ *********************** 
+ Operation feature has ended 
+ *******************************
+ 
+2022-06-03 17:44:58,537  INFO [main] TestRunners:133 - 
+ *********************** 
+ Operation feature has ended 
+ *******************************
+ 
+2022-06-03 17:44:58,543  INFO [main] TestRunners:133 - 
+ *********************** 
+ Operation feature has ended 
+ *******************************
+ 
+2022-06-03 17:44:58,550  INFO [main] TestRunners:133 - 
+ *********************** 
+ Operation feature has ended 
+ *******************************
+ 
+2022-06-03 17:44:58,558  INFO [main] TestRunners:133 - 
+ *********************** 
+ Operation feature has ended 
+ *******************************
+ 
+2022-06-03 17:44:58,564  INFO [main] TestRunners:133 - 
+ *********************** 
+ Operation feature has ended 
+ *******************************
+ 
+2022-06-03 17:45:01,992  INFO [main] TestRunners:27 - ***************click_on_animation_button***************
+2022-06-03 17:45:13,318  INFO [main] TestRunners:36 - ***************click_on_hide_show_animation***************
+2022-06-03 17:45:23,439  INFO [main] TestRunners:53 - ***************click_on_custom_Animation***************
+2022-06-03 17:45:33,578  INFO [main] TestRunners:71 - ***************click_on_hide_rangeButton***************
+2022-06-03 17:45:43,707  INFO [main] TestRunners:44 - ***************click_on_Show_Button***************
+2022-06-03 17:45:53,825  INFO [main] TestRunners:53 - ***************click_on_custom_Animation***************
+2022-06-03 17:46:03,946  INFO [main] TestRunners:62 - ***************click_on_hide***************
+2022-06-03 17:46:14,063  INFO [main] TestRunners:71 - ***************click_on_hide_rangeButton***************
+2022-06-03 17:46:24,181  INFO [main] TestRunners:44 - ***************click_on_Show_Button***************
+2022-06-03 17:46:34,284  INFO [main] TestRunners:133 - 
+ *********************** 
+ Operation my_test has ended 
+ *******************************
+ 
+2022-06-03 17:47:14,371  INFO [main] TestRunners:133 - 
+ *********************** 
+ Operation my_test has ended 
+ *******************************
+ 
+2022-06-03 17:47:24,395  INFO [main] TestRunners:133 - 
+ *********************** 
+ Operation my_test has ended 
+ *******************************
+ 
+2022-06-03 17:47:24,406  INFO [main] TestRunners:133 - 
+ *********************** 
+ Operation my_test has ended 
+ *******************************
+ 
+2022-06-03 17:47:24,412  INFO [main] TestRunners:133 - 
+ *********************** 
+ Operation my_test has ended 
+ *******************************
+ 
+2022-06-03 17:47:24,422  INFO [main] TestRunners:133 - 
+ *********************** 
+ Operation my_test has ended 
+ *******************************
+ 
+2022-06-03 17:47:24,436  INFO [main] TestRunners:133 - 
+ *********************** 
+ Operation my_test has ended 
+ *******************************
+ 
